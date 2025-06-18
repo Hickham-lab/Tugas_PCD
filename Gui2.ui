@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>378</width>
+    <height>542</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #ffc4eb;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+
+QPushButton {
+    background-color: #ffc4eb;
+    border: 2px solid #ed605a;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: #ed605a;
+}
+
+QLabel#titleLabel {
+    font-size: 22px;
+    font-weight: bold;
+    color: #3e2723;  /* Coklat gelap agar tetap kontras dan elegan */
+    background-color: #ed605a;
+    border: 2px solid #ed605a;
+    border-radius: 8px;
+    padding: 8px;
+    qproperty-alignment: AlignCenter;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="detectionButton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>400</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>371</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Untitled design.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>detectionButton</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>378</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionactionCam">
+   <property name="text">
+    <string>actionCam</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
