@@ -1,1 +1,1 @@
-# Tugas_PCD
+# Sistem ini adalah permainan "Batu, Gunting, Kertas" yang menggunakan kamera web untuk mengenali gerakan tangan secara langsung. Aplikasi ini memanfaatkan model yang telah dilatih melalui Roboflow untuk menganalisis video dari webcam secara real-time. Gerakan tangan yang terdeteksi akan dibandingkan, dan sistem secara otomatis menentukan hasil permainannya.
